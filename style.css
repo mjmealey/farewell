@@ -1,0 +1,24 @@
+@font-face {
+  font-family: helvetica;
+  src: url("Helvetica.ttf");
+}
+
+body {
+  background-color: steelblue;
+  color: white;
+  font-size: 30px;
+  font-family: helvetica;
+  background-image: url("lgbtqheart.png");
+  background-repeat: no-repeat;
+  background-size: 200px;
+  background-position: 1190px;
+  background-position-y: 900px;
+}
+
+#container {
+  display: flex;
+  margin: 400px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
